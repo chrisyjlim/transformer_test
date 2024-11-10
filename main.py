@@ -4,4 +4,6 @@ from transformers import pipeline
 classifier = pipeline('sentiment-analysis') 
 
 # Classify text 
-result = classifier('I love using the transformers library!')
+result = classifier('I love using the transformers library')
+
+print(result)
